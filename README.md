@@ -27,6 +27,7 @@ python ./qt_app.py
 ## Usage:
 ### Mode RS422:
 ![image](https://github.com/user-attachments/assets/46782ebd-9ee5-4aaf-8658-bd2a237f2e22)
+
 In RS422 mode, 282 bytes are continuously run into the buffer. If you know that data is coming but not showing, simply click the mode change button until you get the correct frame. This action clears the buffer, allowing you to catch the beat.
 
 ### Mode RF:
@@ -34,4 +35,9 @@ Choose right serial port, then start.
 
 ### Command:
 You can send commands when auto report is enabled, but you won't be able to see the response of the command. If you want to see the response, you must click "Auto Report Stop". After that, you will be able to see the response of the command.
+
+You can click on any command in the left table to copy it to the clipboard, then paste it into the command line. Instead of clicking, if you simply move the cursor to a line containing a command, it will display a description of what that command does.
+
+![image](https://github.com/user-attachments/assets/4744877b-cb82-4e86-a8f4-7c1464634b78)
+
 
